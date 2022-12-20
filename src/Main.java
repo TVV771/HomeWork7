@@ -8,7 +8,9 @@ public class Main {
         task6();
         task7();
         task8();
+
     }
+
 
     public static void task1() {
         System.out.println("Задача 1");
@@ -55,14 +57,15 @@ public class Main {
         int salary = 15000;
         int total = 0;
         int i = 1;
-        for (; total < 12_000_000; i++) {
+        while (total < 12000000) {
+            i++;
             total += (total * 0.07);
             total = total + salary;
             System.out.println("Месяц " + i + " сумма " + total);
         }
-
-
     }
+
+
     public static void task5() {
         System.out.println("Задача 5");
         int salary = 15000;
@@ -77,12 +80,13 @@ public class Main {
         }
         System.out.println(total);
     }
+
     public static void task6() {
         System.out.println("Задача 6");
         int salary = 15000;
         int total = 0;
         int i = 1;
-        for (;i <= 9*12; i++) {
+        for (; i <= 9 * 12; i++) {
             total += (total * 0.07);
             total = total + salary;
             if (i % 0.5 == 0) {
@@ -91,18 +95,30 @@ public class Main {
         }
         System.out.println(total);
     }
+
     public static void task7() {
         System.out.println("Задача 7");
-        int number = 4;
-        int mountFriday = 5;
-        int mountDay = 31;
+        int mountFriday = 7;
+        for (int currentFriday = mountFriday; currentFriday <= 31; currentFriday += 7) {
+            System.out.println("Сегодня пятница " + currentFriday + "-е число.Необходимо подготовить отчет ");
+        }
 
     }
-    public static void task8() {
-        System.out.println("Задача 8");
 
+    public static void task8() {
+        System.out.println("Задача 7");
+        int currentYear = 2022;
+        int beginning = currentYear - 200;
+        int ending = currentYear + 100;
+        for (int i = beginning; i <= ending; i++) {
+            if (i % 79 == 0) {
+                System.out.println(i);
+            }
+
+        }
     }
 }
+
 
 
 
