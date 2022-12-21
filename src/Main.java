@@ -84,17 +84,13 @@ public class Main {
     public static void task6() {
         System.out.println("Задача 6");
         int salary = 15000;
-        int total = 0;
-        int i = 1;
-        for (; i <= 9 * 12; i++) {
-            total += (total * 0.07);
-            total = total + salary;
-            if (i % 0.5 == 0) {
-                System.out.println("Месяц " + i + " Итого " + total);
+        for (int i = 1; i < 9 * 12; i += 6) {
+            int sumBefore = salary;
+            salary *= 1 + 0.07 * 6;
+                System.out.printf("Месяц %d , итого %d \n", i, salary-sumBefore);
             }
         }
-        System.out.println(total);
-    }
+
 
     public static void task7() {
         System.out.println("Задача 7");
@@ -106,7 +102,7 @@ public class Main {
     }
 
     public static void task8() {
-        System.out.println("Задача 7");
+        System.out.println("Задача 8");
         int currentYear = 2022;
         int beginning = currentYear - 200;
         int ending = currentYear + 100;

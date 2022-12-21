@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f047b0-dc55-4437-b63b-6c8b2f2fe04d" name="Changes" comment="">
+    <list default="true" id="50f047b0-dc55-4437-b63b-6c8b2f2fe04d" name="Changes" comment="Выполнено ДЗ!!! Разобрался с 7,8 задачей">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -61,7 +61,8 @@
       <workItem from="1671194367253" duration="2455000" />
       <workItem from="1671200669603" duration="481000" />
       <workItem from="1671451353145" duration="3088000" />
-      <workItem from="1671504871298" duration="824000" />
+      <workItem from="1671504871298" duration="1647000" />
+      <workItem from="1671592420361" duration="1312000" />
     </task>
     <task id="LOCAL-00001" summary="Частично выволнено дз , задание 7-8 не выполнено, не понимаю((">
       <created>1671200778486</created>
@@ -70,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671200778486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Выполнено ДЗ!!! Разобрался с 7,8 задачей">
+      <created>1671505755659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671505755659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Частично выволнено дз , задание 7-8 не выполнено, не понимаю((" />
-    <option name="LAST_COMMIT_MESSAGE" value="Частично выволнено дз , задание 7-8 не выполнено, не понимаю((" />
+    <MESSAGE value="Выполнено ДЗ!!! Разобрался с 7,8 задачей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнено ДЗ!!! Разобрался с 7,8 задачей" />
   </component>
 </project>
